@@ -1,0 +1,31 @@
+## .NET Build artifacts
+bin/
+obj/
+*.user
+*.suo
+
+## Rider / VS / VSCode
+.vs/
+.idea/
+*.rsuser
+.vscode/
+
+## NuGet packages (restored on build)
+packages/
+*.nupkg
+.nuget/
+
+## EF migrations bundle (not needed — migrations folder is tracked)
+efbundle/
+
+## Publish output
+publish/
+out/
+
+## Logs
+*.log
+logs/
+
+## OS files
+.DS_Store
+Thumbs.db
